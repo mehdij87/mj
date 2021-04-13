@@ -79,10 +79,33 @@ body {
 
 .panel-footer {
   margin-top: 30px;
-  padding-top:30px;
+  padding-top: 35px;
   padding-bottom: 30px;
   background-color: #222;
   border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+
+#hours,
+#address {
+  line-height: 2;
+}
+#hours > span,
+#address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+#testimonials {
+  font-style: italic;
+}
+#testimonials p:nth-child(2) {
+  margin-top: 25px;
 }
 /* home page styles */
 .container .jumbotron {
@@ -96,7 +119,7 @@ body {
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  
+
   border: 2px solid #3f0c1f;
   overflow: hidden;
 }
@@ -193,6 +216,17 @@ body {
   #collapsable-nav a span {
     font-size: 1em;
     margin-right: 5px;
+  }
+  /* footer */
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .panel-footer section:nth-child(3) {
+    margin-bottom: 0;
+  }
+  .panel-footer section hr {
+    width: 50%;
   }
 }
 
