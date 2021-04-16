@@ -302,6 +302,16 @@ h3.menu-item-title{
   .panel-footer section hr {
     width: 50%;
   }
+    /* Singe menu style  */
+    .menu-item-photo{
+      margin-right: auto;
+    }
+    .menu-item-tile .menu-item-price {
+      text-align: center;
+    }
+    .menu-item-description{
+      text-align: center;
+    }
 }
 
 @media (max-width: 479px) {
