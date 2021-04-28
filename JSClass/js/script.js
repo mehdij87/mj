@@ -1,5 +1,1 @@
-var message = "in global scope" ;
-console.log("global message = " + message);
-function m() {
-    
-}
+var names = ['mehdi', 'mahshid', 'murat']
