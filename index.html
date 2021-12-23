@@ -75,7 +75,34 @@
       410-602-5008
     </a>
   </div>
-
+  <div class="container">
+    <div id="tgju-data"></div>
+    <script>var tgju_params = { type: "simple", items: ["price_dollar_rl", "price_eur", "price_cny", "price_try"], columns: ["diff", "low", "high"], placeholder: "tgju-data", token: "webservice" };</script>
+    <script src="js/TGJU.js"></script>
+    <style></style>
+  </div>
+  <div class="container">
+    <div id="disqus_thread" class="col-sm-4"></div>
+    <script>
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function () { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://mjexplains.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by
+        Disqus.</a></noscript>
+  </div>
   <!--End of main-content -->
   <footer class="panel-footer">
     <div class="container">
@@ -98,22 +125,22 @@
           <p>"The best Chinese restaurant I've been to! And that's saying a lot, since I've been to many!"</p>
           <p>"Amazing food! Great service! Couldn't ask for more! I'll be back again and again!"</p>
 
-          <div id="main-content" class="container">
-            <div id="tgju-data"></div>
-            <script>var tgju_params = { type: "simple", items: ["price_dollar_rl", "price_eur", "price_cny", "price_try"], columns: ["diff", "low", "high"], placeholder: "tgju-data", token: "webservice" };</script>
-            <script src="https://api.accessban.com/v1/widget"></script>
-            <style></style>
-          </div>
-        </section>
+
       </div>
-      <div class="text-center">&copy; Copyright Mehdi Jafari Design @2021</div>
+      </section>
     </div>
+
+    </div>
+    <div class="text-center">&copy; Copyright Mehdi Jafari Design @2021</div>
+
+
   </footer>
   <!-- <p>Hello everybody</p> -->
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
+  <script id="dsq-count-scr" src="//mjexplains.disqus.com/count.js" async></script>
 </body>
 
 </html>
